@@ -46,3 +46,25 @@
 
 
 /* Form Area CSS */
+.form-area {
+  display: flex;
+  justify-content: center;
+  background-color: aliceblue;
+  height: 300px;
+  align-items: center;
+}
+
+#form #email {
+  height: 30px;
+  width: 250px;
+}
+
+#form #submit {
+  width: 100px;
+  height: 33px;
+  background-color: black;
+  color: white;
+  margin: 0;
+  border: 0px;
+  border-radius: 4px;
+}
