@@ -68,3 +68,36 @@
   border: 0px;
   border-radius: 4px;
 }
+
+/* About us Area css */
+.aboutus-area {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+}
+
+#socials ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#socials ul li {
+  list-style: none;
+  padding: 3px;
+}
+
+#socials ul img {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutus-area {
+    display: flex;
+    flex-direction: column;
+  }
+}
